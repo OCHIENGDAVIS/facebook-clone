@@ -1,0 +1,1154 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+		<link rel="stylesheet" href="css/style.css" />
+		<title>Facebook Clone</title>
+	</head>
+	<body>
+		<div class="container">
+			<header class="header">
+				<h1 class="header__heading">facebook</h1>
+				<div class="header__search">
+					<svg
+						xmlns="http://www.w3.org/2000/svg"
+						fill="none"
+						viewBox="0 0 24 24"
+						stroke-width="1.5"
+						stroke="currentColor"
+						class="header__search--icon"
+					>
+						<path
+							stroke-linecap="round"
+							stroke-linejoin="round"
+							d="M21 21l-5.197-5.197m0 0A7.5 7.5 0 105.196 5.196a7.5 7.5 0 0010.607 10.607z"
+						/>
+					</svg>
+
+					<input
+						class="header__search--input"
+						placeholder="Search Facebook"
+					/>
+				</div>
+				<nav class="header__nav">
+					<div class="header__nav--item">
+						<svg
+							xmlns="http://www.w3.org/2000/svg"
+							viewBox="0 0 24 24"
+							fill="currentColor"
+							class="header__nav--icon"
+						>
+							<path
+								fill-rule="evenodd"
+								d="M4.804 21.644A6.707 6.707 0 006 21.75a6.721 6.721 0 003.583-1.029c.774.182 1.584.279 2.417.279 5.322 0 9.75-3.97 9.75-9 0-5.03-4.428-9-9.75-9s-9.75 3.97-9.75 9c0 2.409 1.025 4.587 2.674 6.192.232.226.277.428.254.543a3.73 3.73 0 01-.814 1.686.75.75 0 00.44 1.223zM8.25 10.875a1.125 1.125 0 100 2.25 1.125 1.125 0 000-2.25zM10.875 12a1.125 1.125 0 112.25 0 1.125 1.125 0 01-2.25 0zm4.875-1.125a1.125 1.125 0 100 2.25 1.125 1.125 0 000-2.25z"
+								clip-rule="evenodd"
+							/>
+							<span class="header__nav--count">4</span>
+						</svg>
+					</div>
+					<div class="header__nav--item">
+						<svg
+							xmlns="http://www.w3.org/2000/svg"
+							viewBox="0 0 24 24"
+							fill="currentColor"
+							class="header__nav--icon"
+						>
+							<path
+								fill-rule="evenodd"
+								d="M5.25 9a6.75 6.75 0 0113.5 0v.75c0 2.123.8 4.057 2.118 5.52a.75.75 0 01-.297 1.206c-1.544.57-3.16.99-4.831 1.243a3.75 3.75 0 11-7.48 0 24.585 24.585 0 01-4.831-1.244.75.75 0 01-.298-1.205A8.217 8.217 0 005.25 9.75V9zm4.502 8.9a2.25 2.25 0 104.496 0 25.057 25.057 0 01-4.496 0z"
+								clip-rule="evenodd"
+							/>
+						</svg>
+						<span class="header__nav--count">9+</span>
+					</div>
+					<div class="header__nav--profile">
+						<img
+							class="header__nav--profile--img"
+							src="imgs/profile.jpg"
+							alt="user profile"
+						/>
+						<svg
+							xmlns="http://www.w3.org/2000/svg"
+							viewBox="0 0 24 24"
+							fill="currentColor"
+							class="header__nav--profile--icon"
+						>
+							<path
+								fill-rule="evenodd"
+								d="M12.53 16.28a.75.75 0 01-1.06 0l-7.5-7.5a.75.75 0 011.06-1.06L12 14.69l6.97-6.97a.75.75 0 111.06 1.06l-7.5 7.5z"
+								clip-rule="evenodd"
+							/>
+						</svg>
+					</div>
+				</nav>
+			</header>
+			<section class="sidebar">
+				<div class="sidebar__category">
+					<div class="sidebar__item--box">
+						<div class="sidebar__item sidebar__item--active">
+							<svg
+								xmlns="http://www.w3.org/2000/svg"
+								viewBox="0 0 24 24"
+								fill="currentColor"
+								class="sidebar__item--icon"
+							>
+								<path
+									d="M11.47 3.84a.75.75 0 011.06 0l8.69 8.69a.75.75 0 101.06-1.06l-8.689-8.69a2.25 2.25 0 00-3.182 0l-8.69 8.69a.75.75 0 001.061 1.06l8.69-8.69z"
+								/>
+								<path
+									d="M12 5.432l8.159 8.159c.03.03.06.058.091.086v6.198c0 1.035-.84 1.875-1.875 1.875H15a.75.75 0 01-.75-.75v-4.5a.75.75 0 00-.75-.75h-3a.75.75 0 00-.75.75V21a.75.75 0 01-.75.75H5.625a1.875 1.875 0 01-1.875-1.875v-6.198a2.29 2.29 0 00.091-.086L12 5.43z"
+								/>
+							</svg>
+							<a href="#" class="sidebar__item--link">Home</a>
+						</div>
+						<div class="sidebar__item">
+							<img
+								class="sidebar__item--profile"
+								src="imgs/profile.jpg"
+								alt="profile picture"
+							/>
+							<a href="#" class="sidebar__item--link"
+								>Ochieng Ogori Davis</a
+							>
+						</div>
+					</div>
+				</div>
+				<div class="sidebar__category">
+					<div class="sidebar__item--box">
+						<div class="sidebar__item">
+							<svg
+								xmlns="http://www.w3.org/2000/svg"
+								viewBox="0 0 24 24"
+								fill="currentColor"
+								class="sidebar__item--icon"
+							>
+								<path d="M19.5 6h-15v9h15V6z" />
+								<path
+									fill-rule="evenodd"
+									d="M3.375 3C2.339 3 1.5 3.84 1.5 4.875v11.25C1.5 17.16 2.34 18 3.375 18H9.75v1.5H6A.75.75 0 006 21h12a.75.75 0 000-1.5h-3.75V18h6.375c1.035 0 1.875-.84 1.875-1.875V4.875C22.5 3.839 21.66 3 20.625 3H3.375zm0 13.5h17.25a.375.375 0 00.375-.375V4.875a.375.375 0 00-.375-.375H3.375A.375.375 0 003 4.875v11.25c0 .207.168.375.375.375z"
+									clip-rule="evenodd"
+								/>
+							</svg>
+
+							<a href="#" class="sidebar__item--link">Watch</a>
+						</div>
+						<div class="sidebar__item">
+							<svg
+								xmlns="http://www.w3.org/2000/svg"
+								viewBox="0 0 24 24"
+								fill="currentColor"
+								class="sidebar__item--icon"
+							>
+								<path
+									d="M5.223 2.25c-.497 0-.974.198-1.325.55l-1.3 1.298A3.75 3.75 0 007.5 9.75c.627.47 1.406.75 2.25.75.844 0 1.624-.28 2.25-.75.626.47 1.406.75 2.25.75.844 0 1.623-.28 2.25-.75a3.75 3.75 0 004.902-5.652l-1.3-1.299a1.875 1.875 0 00-1.325-.549H5.223z"
+								/>
+								<path
+									fill-rule="evenodd"
+									d="M3 20.25v-8.755c1.42.674 3.08.673 4.5 0A5.234 5.234 0 009.75 12c.804 0 1.568-.182 2.25-.506a5.234 5.234 0 002.25.506c.804 0 1.567-.182 2.25-.506 1.42.674 3.08.675 4.5.001v8.755h.75a.75.75 0 010 1.5H2.25a.75.75 0 010-1.5H3zm3-6a.75.75 0 01.75-.75h3a.75.75 0 01.75.75v3a.75.75 0 01-.75.75h-3a.75.75 0 01-.75-.75v-3zm8.25-.75a.75.75 0 00-.75.75v5.25c0 .414.336.75.75.75h3a.75.75 0 00.75-.75v-5.25a.75.75 0 00-.75-.75h-3z"
+									clip-rule="evenodd"
+								/>
+							</svg>
+
+							<a href="#" class="sidebar__item--link"
+								>Marketplace</a
+							>
+						</div>
+						<div class="sidebar__item">
+							<svg
+								xmlns="http://www.w3.org/2000/svg"
+								viewBox="0 0 24 24"
+								fill="currentColor"
+								class="sidebar__item--icon"
+							>
+								<path
+									d="M11.25 5.337c0-.355-.186-.676-.401-.959a1.647 1.647 0 01-.349-1.003c0-1.036 1.007-1.875 2.25-1.875S15 2.34 15 3.375c0 .369-.128.713-.349 1.003-.215.283-.401.604-.401.959 0 .332.278.598.61.578 1.91-.114 3.79-.342 5.632-.676a.75.75 0 01.878.645 49.17 49.17 0 01.376 5.452.657.657 0 01-.66.664c-.354 0-.675-.186-.958-.401a1.647 1.647 0 00-1.003-.349c-1.035 0-1.875 1.007-1.875 2.25s.84 2.25 1.875 2.25c.369 0 .713-.128 1.003-.349.283-.215.604-.401.959-.401.31 0 .557.262.534.571a48.774 48.774 0 01-.595 4.845.75.75 0 01-.61.61c-1.82.317-3.673.533-5.555.642a.58.58 0 01-.611-.581c0-.355.186-.676.401-.959.221-.29.349-.634.349-1.003 0-1.035-1.007-1.875-2.25-1.875s-2.25.84-2.25 1.875c0 .369.128.713.349 1.003.215.283.401.604.401.959a.641.641 0 01-.658.643 49.118 49.118 0 01-4.708-.36.75.75 0 01-.645-.878c.293-1.614.504-3.257.629-4.924A.53.53 0 005.337 15c-.355 0-.676.186-.959.401-.29.221-.634.349-1.003.349-1.036 0-1.875-1.007-1.875-2.25s.84-2.25 1.875-2.25c.369 0 .713.128 1.003.349.283.215.604.401.959.401a.656.656 0 00.659-.663 47.703 47.703 0 00-.31-4.82.75.75 0 01.83-.832c1.343.155 2.703.254 4.077.294a.64.64 0 00.657-.642z"
+								/>
+							</svg>
+
+							<a href="#" class="sidebar__item--link">Gaming</a>
+						</div>
+						<div class="sidebar__item">
+							<svg
+								xmlns="http://www.w3.org/2000/svg"
+								viewBox="0 0 24 24"
+								fill="currentColor"
+								class="sidebar__item--icon sidebar__item--icon-seeall"
+							>
+								<path
+									fill-rule="evenodd"
+									d="M3 6a3 3 0 013-3h2.25a3 3 0 013 3v2.25a3 3 0 01-3 3H6a3 3 0 01-3-3V6zm9.75 0a3 3 0 013-3H18a3 3 0 013 3v2.25a3 3 0 01-3 3h-2.25a3 3 0 01-3-3V6zM3 15.75a3 3 0 013-3h2.25a3 3 0 013 3V18a3 3 0 01-3 3H6a3 3 0 01-3-3v-2.25zm9.75 0a3 3 0 013-3H18a3 3 0 013 3V18a3 3 0 01-3 3h-2.25a3 3 0 01-3-3v-2.25z"
+									clip-rule="evenodd"
+								/>
+							</svg>
+
+							<a
+								href="#"
+								class="sidebar__item--link sidebar__item--link--seeall"
+								>See all</a
+							>
+						</div>
+					</div>
+				</div>
+				<div class="sidebar__category">
+					<div class="sidebar__item--box">
+						<div class="sidebar__item">
+							<img
+								class="sidebar__item--img"
+								src="imgs/ictdevelopers.jpg"
+								alt="ICT developers kenya"
+							/>
+
+							<a href="#" class="sidebar__item--link"
+								>ICT Developers Kenya</a
+							>
+						</div>
+						<div class="sidebar__item">
+							<img
+								class="sidebar__item--img"
+								src="imgs/infosec.jpg"
+								alt="infosec profile picture"
+							/>
+
+							<a href="#" class="sidebar__item--link"
+								>Infosec 101: Cyber Security
+							</a>
+						</div>
+						<div class="sidebar__item">
+							<img
+								class="sidebar__item--img"
+								src="imgs/hate-most.jpg"
+								alt="ate most profile picture"
+							/>
+
+							<a href="#" class="sidebar__item--link"
+								>What you hate most</a
+							>
+						</div>
+						<div class="sidebar__item">
+							<svg
+								xmlns="http://www.w3.org/2000/svg"
+								viewBox="0 0 24 24"
+								fill="currentColor"
+								class="sidebar__item--icon sidebar__item--icon-seeall"
+							>
+								<path
+									fill-rule="evenodd"
+									d="M8.25 6.75a3.75 3.75 0 117.5 0 3.75 3.75 0 01-7.5 0zM15.75 9.75a3 3 0 116 0 3 3 0 01-6 0zM2.25 9.75a3 3 0 116 0 3 3 0 01-6 0zM6.31 15.117A6.745 6.745 0 0112 12a6.745 6.745 0 016.709 7.498.75.75 0 01-.372.568A12.696 12.696 0 0112 21.75c-2.305 0-4.47-.612-6.337-1.684a.75.75 0 01-.372-.568 6.787 6.787 0 011.019-4.38z"
+									clip-rule="evenodd"
+								/>
+								<path
+									d="M5.082 14.254a8.287 8.287 0 00-1.308 5.135 9.687 9.687 0 01-1.764-.44l-.115-.04a.563.563 0 01-.373-.487l-.01-.121a3.75 3.75 0 013.57-4.047zM20.226 19.389a8.287 8.287 0 00-1.308-5.135 3.75 3.75 0 013.57 4.047l-.01.121a.563.563 0 01-.373.486l-.115.04c-.567.2-1.156.349-1.764.441z"
+								/>
+							</svg>
+
+							<a
+								href="#"
+								class="sidebar__item--link sidebar__item--link--seeall"
+								>See all groups</a
+							>
+						</div>
+					</div>
+				</div>
+				<div class="sidebar__category sidebar__category--nonorder">
+					<div class="sidebar__item--box">
+						<div class="sidebar__item">
+							<svg
+								xmlns="http://www.w3.org/2000/svg"
+								viewBox="0 0 24 24"
+								fill="currentColor"
+								class="sidebar__item--icon sidebar__item--icon-seeall"
+							>
+								<path
+									fill-rule="evenodd"
+									d="M19.902 4.098a3.75 3.75 0 00-5.304 0l-4.5 4.5a3.75 3.75 0 001.035 6.037.75.75 0 01-.646 1.353 5.25 5.25 0 01-1.449-8.45l4.5-4.5a5.25 5.25 0 117.424 7.424l-1.757 1.757a.75.75 0 11-1.06-1.06l1.757-1.757a3.75 3.75 0 000-5.304zm-7.389 4.267a.75.75 0 011-.353 5.25 5.25 0 011.449 8.45l-4.5 4.5a5.25 5.25 0 11-7.424-7.424l1.757-1.757a.75.75 0 111.06 1.06l-1.757 1.757a3.75 3.75 0 105.304 5.304l4.5-4.5a3.75 3.75 0 00-1.035-6.037.75.75 0 01-.354-1z"
+									clip-rule="evenodd"
+								/>
+							</svg>
+
+							<a
+								href="#"
+								class="sidebar__item--link sidebar__item--link--seeall"
+								>See all shortcuts</a
+							>
+						</div>
+					</div>
+				</div>
+				<div class="footer">
+					<ul class="footer__items">
+						<li class="footer__item">
+							<a href="#" class="footer__link">Privacy</a>
+						</li>
+						<li class="footer__item">
+							&period;
+							<a href="#" class="footer__link">Terms</a>
+						</li>
+						<li class="footer__item">
+							&period;
+							<a href="#" class="footer__link">Advertising</a>
+						</li>
+						<li class="footer__item">
+							&period;
+							<a href="#" class="footer__link">Ad choices</a>
+						</li>
+						<li class="footer__item">
+							&period;
+							<a href="#" class="footer__link">cookies</a>
+						</li>
+						<li class="footer__item">
+							&period;
+							<a href="#" class="footer__link">More</a>
+						</li>
+						<li class="footer__item">
+							<a href="#" class="footer__link">
+								&period; Meta &copy; 2023 Meta</a
+							>
+						</li>
+					</ul>
+				</div>
+			</section>
+			<section class="main">
+				<div class="main__reels">
+					<div class="main__reels--header">
+						<div class="main__reels--header--item--box">
+							<div
+								class="main__reels--header--item main__reels--header--active"
+							>
+								<svg
+									xmlns="http://www.w3.org/2000/svg"
+									viewBox="0 0 24 24"
+									fill="currentColor"
+									class="main__reels--header--icon main__reels--header--icon--active"
+								>
+									<path
+										d="M11.25 4.533A9.707 9.707 0 006 3a9.735 9.735 0 00-3.25.555.75.75 0 00-.5.707v14.25a.75.75 0 001 .707A8.237 8.237 0 016 18.75c1.995 0 3.823.707 5.25 1.886V4.533zM12.75 20.636A8.214 8.214 0 0118 18.75c.966 0 1.89.166 2.75.47a.75.75 0 001-.708V4.262a.75.75 0 00-.5-.707A9.735 9.735 0 0018 3a9.707 9.707 0 00-5.25 1.533v16.103z"
+									/>
+								</svg>
+
+								<span class="main__reels--header--text"
+									>Stories</span
+								>
+							</div>
+						</div>
+						<div class="main__reels--header--item--box">
+							<div class="main__reels--header--item">
+								<svg
+									xmlns="http://www.w3.org/2000/svg"
+									viewBox="0 0 24 24"
+									fill="currentColor"
+									class="main__reels--header--icon"
+								>
+									<path
+										fill-rule="evenodd"
+										d="M1.5 5.625c0-1.036.84-1.875 1.875-1.875h17.25c1.035 0 1.875.84 1.875 1.875v12.75c0 1.035-.84 1.875-1.875 1.875H3.375A1.875 1.875 0 011.5 18.375V5.625zm1.5 0v1.5c0 .207.168.375.375.375h1.5a.375.375 0 00.375-.375v-1.5a.375.375 0 00-.375-.375h-1.5A.375.375 0 003 5.625zm16.125-.375a.375.375 0 00-.375.375v1.5c0 .207.168.375.375.375h1.5A.375.375 0 0021 7.125v-1.5a.375.375 0 00-.375-.375h-1.5zM21 9.375A.375.375 0 0020.625 9h-1.5a.375.375 0 00-.375.375v1.5c0 .207.168.375.375.375h1.5a.375.375 0 00.375-.375v-1.5zm0 3.75a.375.375 0 00-.375-.375h-1.5a.375.375 0 00-.375.375v1.5c0 .207.168.375.375.375h1.5a.375.375 0 00.375-.375v-1.5zm0 3.75a.375.375 0 00-.375-.375h-1.5a.375.375 0 00-.375.375v1.5c0 .207.168.375.375.375h1.5a.375.375 0 00.375-.375v-1.5zM4.875 18.75a.375.375 0 00.375-.375v-1.5a.375.375 0 00-.375-.375h-1.5a.375.375 0 00-.375.375v1.5c0 .207.168.375.375.375h1.5zM3.375 15h1.5a.375.375 0 00.375-.375v-1.5a.375.375 0 00-.375-.375h-1.5a.375.375 0 00-.375.375v1.5c0 .207.168.375.375.375zm0-3.75h1.5a.375.375 0 00.375-.375v-1.5A.375.375 0 004.875 9h-1.5A.375.375 0 003 9.375v1.5c0 .207.168.375.375.375zm4.125 0a.75.75 0 000 1.5h9a.75.75 0 000-1.5h-9z"
+										clip-rule="evenodd"
+									/>
+								</svg>
+
+								<span class="main__reels--header--text"
+									>Reels</span
+								>
+							</div>
+						</div>
+						<div class="main__reels--header--item--box">
+							<div class="main__reels--header--item">
+								<svg
+									xmlns="http://www.w3.org/2000/svg"
+									viewBox="0 0 24 24"
+									fill="currentColor"
+									class="main__reels--header--icon"
+								>
+									<path
+										d="M4.5 4.5a3 3 0 00-3 3v9a3 3 0 003 3h8.25a3 3 0 003-3v-9a3 3 0 00-3-3H4.5zM19.94 18.75l-2.69-2.69V7.94l2.69-2.69c.944-.945 2.56-.276 2.56 1.06v11.38c0 1.336-1.616 2.005-2.56 1.06z"
+									/>
+								</svg>
+
+								<span class="main__reels--header--text"
+									>Rooms</span
+								>
+							</div>
+						</div>
+					</div>
+					<div class="main__reels--content">
+						<div class="main__reels--content--item">
+							<div class="main__reels--content--box">
+								<img
+									class="main__reels--content--img"
+									src="/imgs/post5.jpg"
+									alt="reels picture"
+								/>
+							</div>
+							<svg
+								xmlns="http://www.w3.org/2000/svg"
+								viewBox="0 0 24 24"
+								fill="currentColor"
+								class="main__reels--content--icon"
+							>
+								<path
+									fill-rule="evenodd"
+									d="M12 2.25c-5.385 0-9.75 4.365-9.75 9.75s4.365 9.75 9.75 9.75 9.75-4.365 9.75-9.75S17.385 2.25 12 2.25zM12.75 9a.75.75 0 00-1.5 0v2.25H9a.75.75 0 000 1.5h2.25V15a.75.75 0 001.5 0v-2.25H15a.75.75 0 000-1.5h-2.25V9z"
+									clip-rule="evenodd"
+								/>
+							</svg>
+
+							<span class="main__reels--content--text"
+								>Create story
+							</span>
+						</div>
+						<div class="main__reels--content--story">
+							<img
+								class="main__reels--content--story--img"
+								src="/imgs/post6.jpg"
+								alt="reels picture"
+							/>
+
+							<span class="main__reels--content--story--name"
+								>Celline Arrel
+							</span>
+						</div>
+						<div class="main__reels--content--story">
+							<img
+								class="main__reels--content--story--img"
+								src="/imgs/post2.jpg"
+								alt="reels picture"
+							/>
+
+							<span class="main__reels--content--story--name"
+								>Mark Porozi
+							</span>
+						</div>
+						<div class="main__reels--content--story">
+							<img
+								class="main__reels--content--story--img"
+								src="/imgs/post2.jpg"
+								alt="reels picture"
+							/>
+
+							<span class="main__reels--content--story--name"
+								>Anne Smith
+							</span>
+						</div>
+						<div class="main__reels--content--story">
+							<div class="main__reels--content--story--box">
+								<img
+									class="main__reels--content--story--img"
+									src="imgs/post3.jpg"
+									alt="reels picture"
+								/>
+							</div>
+
+							<span class="main__reels--content--story--name"
+								>Charles Piko
+							</span>
+						</div>
+					</div>
+				</div>
+				<!-- main post form -->
+				<div class="main__post">
+					<div class="main__post--header">
+						<img
+							class="main__post--profile"
+							src="imgs/profile.jpg"
+							alt="profile picture"
+						/>
+						<div class="main__post--input-box">
+							<input
+								class="main__post--input"
+								placeholder="What's on Your mind, Ochieng"
+							/>
+						</div>
+					</div>
+					<div class="main__post--icons">
+						<div class="main__post--icons--item">
+							<svg
+								xmlns="http://www.w3.org/2000/svg"
+								viewBox="0 0 24 24"
+								fill="currentColor"
+								class="main__post--icon main__post--icon--red"
+							>
+								<path
+									d="M4.5 4.5a3 3 0 00-3 3v9a3 3 0 003 3h8.25a3 3 0 003-3v-9a3 3 0 00-3-3H4.5zM19.94 18.75l-2.69-2.69V7.94l2.69-2.69c.944-.945 2.56-.276 2.56 1.06v11.38c0 1.336-1.616 2.005-2.56 1.06z"
+								/>
+							</svg>
+							<span class="main__post--icons--text"
+								>Live video</span
+							>
+						</div>
+
+						<div class="main__post--icons--item">
+							<svg
+								xmlns="http://www.w3.org/2000/svg"
+								viewBox="0 0 24 24"
+								fill="currentColor"
+								class="main__post--icon main__post--icon--green"
+							>
+								<path
+									fill-rule="evenodd"
+									d="M1.5 6a2.25 2.25 0 012.25-2.25h16.5A2.25 2.25 0 0122.5 6v12a2.25 2.25 0 01-2.25 2.25H3.75A2.25 2.25 0 011.5 18V6zM3 16.06V18c0 .414.336.75.75.75h16.5A.75.75 0 0021 18v-1.94l-2.69-2.689a1.5 1.5 0 00-2.12 0l-.88.879.97.97a.75.75 0 11-1.06 1.06l-5.16-5.159a1.5 1.5 0 00-2.12 0L3 16.061zm10.125-7.81a1.125 1.125 0 112.25 0 1.125 1.125 0 01-2.25 0z"
+									clip-rule="evenodd"
+								/>
+							</svg>
+
+							<span class="main__post--icons--text"
+								>Photo/Video</span
+							>
+						</div>
+						<div class="main__post--icons--item">
+							<svg
+								xmlns="http://www.w3.org/2000/svg"
+								viewBox="0 0 24 24"
+								fill="currentColor"
+								class="main__post--icon main__post--icon--yellow"
+							>
+								<path
+									fill-rule="evenodd"
+									d="M12 2.25c-5.385 0-9.75 4.365-9.75 9.75s4.365 9.75 9.75 9.75 9.75-4.365 9.75-9.75S17.385 2.25 12 2.25zm-2.625 6c-.54 0-.828.419-.936.634a1.96 1.96 0 00-.189.866c0 .298.059.605.189.866.108.215.395.634.936.634.54 0 .828-.419.936-.634.13-.26.189-.568.189-.866 0-.298-.059-.605-.189-.866-.108-.215-.395-.634-.936-.634zm4.314.634c.108-.215.395-.634.936-.634.54 0 .828.419.936.634.13.26.189.568.189.866 0 .298-.059.605-.189.866-.108.215-.395.634-.936.634-.54 0-.828-.419-.936-.634a1.96 1.96 0 01-.189-.866c0-.298.059-.605.189-.866zm2.023 6.828a.75.75 0 10-1.06-1.06 3.75 3.75 0 01-5.304 0 .75.75 0 00-1.06 1.06 5.25 5.25 0 007.424 0z"
+									clip-rule="evenodd"
+								/>
+							</svg>
+
+							<span class="main__post--icons--text"
+								>Feeling/Activity</span
+							>
+						</div>
+					</div>
+				</div>
+				<!-- One Post Item -->
+				<div class="post-item">
+					<div class="post-item__header">
+						<div class="post-item__header--profile">
+							<img
+								class="post-item__header--profile--img"
+								src="imgs/post4.jpg"
+								alt="Profile picture"
+							/>
+						</div>
+						<div class="post-item__header--name">
+							<p class="post-item__header--text">
+								<span>Dan Mbui</span>
+							</p>
+						</div>
+						<div class="post-item__header--more">
+							<svg
+								xmlns="http://www.w3.org/2000/svg"
+								viewBox="0 0 24 24"
+								fill="currentColor"
+								class="post-item__header--icon"
+							>
+								<path
+									fill-rule="evenodd"
+									d="M4.5 12a1.5 1.5 0 113 0 1.5 1.5 0 01-3 0zm6 0a1.5 1.5 0 113 0 1.5 1.5 0 01-3 0zm6 0a1.5 1.5 0 113 0 1.5 1.5 0 01-3 0z"
+									clip-rule="evenodd"
+								/>
+							</svg>
+							<svg
+								xmlns="http://www.w3.org/2000/svg"
+								viewBox="0 0 24 24"
+								fill="currentColor"
+								class="post-item__header--icon"
+							>
+								<path
+									fill-rule="evenodd"
+									d="M5.47 5.47a.75.75 0 011.06 0L12 10.94l5.47-5.47a.75.75 0 111.06 1.06L13.06 12l5.47 5.47a.75.75 0 11-1.06 1.06L12 13.06l-5.47 5.47a.75.75 0 01-1.06-1.06L10.94 12 5.47 6.53a.75.75 0 010-1.06z"
+									clip-rule="evenodd"
+								/>
+							</svg>
+						</div>
+					</div>
+					<div class="post-item__content">
+						<p class="post-item__content--text">
+							Lorem ipsum, dolor sit amet consectetur adipisicing
+							elit.
+						</p>
+						<img
+							class="post-item__content--img"
+							src="imgs/post4.jpg"
+							alt="profile picture"
+						/>
+					</div>
+					<div class="post-item__footer">
+						<div class="post-item__footer--like-comment--box">
+							<div class="post-item__footer--likes">
+								<div class="post-item__footer--likes--content">
+									<svg
+										xmlns="http://www.w3.org/2000/svg"
+										viewBox="0 0 24 24"
+										fill="currentColor"
+										class="post-item__footer--likes--icon"
+									>
+										<path
+											d="M7.493 18.75c-.425 0-.82-.236-.975-.632A7.48 7.48 0 016 15.375c0-1.75.599-3.358 1.602-4.634.151-.192.373-.309.6-.397.473-.183.89-.514 1.212-.924a9.042 9.042 0 012.861-2.4c.723-.384 1.35-.956 1.653-1.715a4.498 4.498 0 00.322-1.672V3a.75.75 0 01.75-.75 2.25 2.25 0 012.25 2.25c0 1.152-.26 2.243-.723 3.218-.266.558.107 1.282.725 1.282h3.126c1.026 0 1.945.694 2.054 1.715.045.422.068.85.068 1.285a11.95 11.95 0 01-2.649 7.521c-.388.482-.987.729-1.605.729H14.23c-.483 0-.964-.078-1.423-.23l-3.114-1.04a4.501 4.501 0 00-1.423-.23h-.777zM2.331 10.977a11.969 11.969 0 00-.831 4.398 12 12 0 00.52 3.507c.26.85 1.084 1.368 1.973 1.368H4.9c.445 0 .72-.498.523-.898a8.963 8.963 0 01-.924-3.977c0-1.708.476-3.305 1.302-4.666.245-.403-.028-.959-.5-.959H4.25c-.832 0-1.612.453-1.918 1.227z"
+										/>
+									</svg>
+
+									<p class="post-item__footer--likes--text">
+										Ochara Fredrick, Dan Mbui and 25 others
+									</p>
+								</div>
+							</div>
+							<div class="post-item__footer--comments">
+								14 Comments
+							</div>
+						</div>
+						<div class="post-item__footer--reaction">
+							<div class="post-item__footer--reaction--item">
+								<svg
+									xmlns="http://www.w3.org/2000/svg"
+									fill="none"
+									viewBox="0 0 24 24"
+									stroke-width="1.5"
+									stroke="currentColor"
+									class="post-item__footer--reaction--icon"
+								>
+									<path
+										stroke-linecap="round"
+										stroke-linejoin="round"
+										d="M6.633 10.5c.806 0 1.533-.446 2.031-1.08a9.041 9.041 0 012.861-2.4c.723-.384 1.35-.956 1.653-1.715a4.498 4.498 0 00.322-1.672V3a.75.75 0 01.75-.75A2.25 2.25 0 0116.5 4.5c0 1.152-.26 2.243-.723 3.218-.266.558.107 1.282.725 1.282h3.126c1.026 0 1.945.694 2.054 1.715.045.422.068.85.068 1.285a11.95 11.95 0 01-2.649 7.521c-.388.482-.987.729-1.605.729H13.48c-.483 0-.964-.078-1.423-.23l-3.114-1.04a4.501 4.501 0 00-1.423-.23H5.904M14.25 9h2.25M5.904 18.75c.083.205.173.405.27.602.197.4-.078.898-.523.898h-.908c-.889 0-1.713-.518-1.972-1.368a12 12 0 01-.521-3.507c0-1.553.295-3.036.831-4.398C3.387 10.203 4.167 9.75 5 9.75h1.053c.472 0 .745.556.5.96a8.958 8.958 0 00-1.302 4.665c0 1.194.232 2.333.654 3.375z"
+									/>
+								</svg>
+
+								<span class="post-item__footer--reaction--text"
+									>Like</span
+								>
+							</div>
+							<div class="post-item__footer--reaction--item">
+								<svg
+									xmlns="http://www.w3.org/2000/svg"
+									fill="none"
+									viewBox="0 0 24 24"
+									stroke-width="1.5"
+									stroke="currentColor"
+									class="post-item__footer--reaction--icon"
+								>
+									<path
+										stroke-linecap="round"
+										stroke-linejoin="round"
+										d="M6.633 10.5c.806 0 1.533-.446 2.031-1.08a9.041 9.041 0 012.861-2.4c.723-.384 1.35-.956 1.653-1.715a4.498 4.498 0 00.322-1.672V3a.75.75 0 01.75-.75A2.25 2.25 0 0116.5 4.5c0 1.152-.26 2.243-.723 3.218-.266.558.107 1.282.725 1.282h3.126c1.026 0 1.945.694 2.054 1.715.045.422.068.85.068 1.285a11.95 11.95 0 01-2.649 7.521c-.388.482-.987.729-1.605.729H13.48c-.483 0-.964-.078-1.423-.23l-3.114-1.04a4.501 4.501 0 00-1.423-.23H5.904M14.25 9h2.25M5.904 18.75c.083.205.173.405.27.602.197.4-.078.898-.523.898h-.908c-.889 0-1.713-.518-1.972-1.368a12 12 0 01-.521-3.507c0-1.553.295-3.036.831-4.398C3.387 10.203 4.167 9.75 5 9.75h1.053c.472 0 .745.556.5.96a8.958 8.958 0 00-1.302 4.665c0 1.194.232 2.333.654 3.375z"
+									/>
+								</svg>
+
+								<span class="post-item__footer--reaction--text"
+									>Comment</span
+								>
+							</div>
+							<div class="post-item__footer--reaction--item">
+								<svg
+									xmlns="http://www.w3.org/2000/svg"
+									fill="none"
+									viewBox="0 0 24 24"
+									stroke-width="1.5"
+									stroke="currentColor"
+									class="post-item__footer--reaction--icon"
+								>
+									<path
+										stroke-linecap="round"
+										stroke-linejoin="round"
+										d="M13.5 6H5.25A2.25 2.25 0 003 8.25v10.5A2.25 2.25 0 005.25 21h10.5A2.25 2.25 0 0018 18.75V10.5m-10.5 6L21 3m0 0h-5.25M21 3v5.25"
+									/>
+								</svg>
+
+								<span class="post-item__footer--reaction--text"
+									>Share</span
+								>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="post-item">
+					<div class="post-item__header">
+						<div class="post-item__header--profile">
+							<img
+								class="post-item__header--profile--img"
+								src="imgs/post2.jpg"
+								alt="Profile picture"
+							/>
+						</div>
+						<div class="post-item__header--name">
+							<p class="post-item__header--text">
+								<span>Dan Mbui</span>
+							</p>
+						</div>
+						<div class="post-item__header--more">
+							<svg
+								xmlns="http://www.w3.org/2000/svg"
+								viewBox="0 0 24 24"
+								fill="currentColor"
+								class="post-item__header--icon"
+							>
+								<path
+									fill-rule="evenodd"
+									d="M4.5 12a1.5 1.5 0 113 0 1.5 1.5 0 01-3 0zm6 0a1.5 1.5 0 113 0 1.5 1.5 0 01-3 0zm6 0a1.5 1.5 0 113 0 1.5 1.5 0 01-3 0z"
+									clip-rule="evenodd"
+								/>
+							</svg>
+							<svg
+								xmlns="http://www.w3.org/2000/svg"
+								viewBox="0 0 24 24"
+								fill="currentColor"
+								class="post-item__header--icon"
+							>
+								<path
+									fill-rule="evenodd"
+									d="M5.47 5.47a.75.75 0 011.06 0L12 10.94l5.47-5.47a.75.75 0 111.06 1.06L13.06 12l5.47 5.47a.75.75 0 11-1.06 1.06L12 13.06l-5.47 5.47a.75.75 0 01-1.06-1.06L10.94 12 5.47 6.53a.75.75 0 010-1.06z"
+									clip-rule="evenodd"
+								/>
+							</svg>
+						</div>
+					</div>
+					<div class="post-item__content">
+						<p class="post-item__content--text">
+							Lorem ipsum, dolor sit amet consectetur adipisicing
+							elit.
+						</p>
+						<img
+							class="post-item__content--img"
+							src="imgs/post1.jpg"
+							alt="profile picture"
+						/>
+					</div>
+					<div class="post-item__footer">
+						<div class="post-item__footer--like-comment--box">
+							<div class="post-item__footer--likes">
+								<div class="post-item__footer--likes--content">
+									<svg
+										xmlns="http://www.w3.org/2000/svg"
+										viewBox="0 0 24 24"
+										fill="currentColor"
+										class="post-item__footer--likes--icon"
+									>
+										<path
+											d="M7.493 18.75c-.425 0-.82-.236-.975-.632A7.48 7.48 0 016 15.375c0-1.75.599-3.358 1.602-4.634.151-.192.373-.309.6-.397.473-.183.89-.514 1.212-.924a9.042 9.042 0 012.861-2.4c.723-.384 1.35-.956 1.653-1.715a4.498 4.498 0 00.322-1.672V3a.75.75 0 01.75-.75 2.25 2.25 0 012.25 2.25c0 1.152-.26 2.243-.723 3.218-.266.558.107 1.282.725 1.282h3.126c1.026 0 1.945.694 2.054 1.715.045.422.068.85.068 1.285a11.95 11.95 0 01-2.649 7.521c-.388.482-.987.729-1.605.729H14.23c-.483 0-.964-.078-1.423-.23l-3.114-1.04a4.501 4.501 0 00-1.423-.23h-.777zM2.331 10.977a11.969 11.969 0 00-.831 4.398 12 12 0 00.52 3.507c.26.85 1.084 1.368 1.973 1.368H4.9c.445 0 .72-.498.523-.898a8.963 8.963 0 01-.924-3.977c0-1.708.476-3.305 1.302-4.666.245-.403-.028-.959-.5-.959H4.25c-.832 0-1.612.453-1.918 1.227z"
+										/>
+									</svg>
+
+									<p class="post-item__footer--likes--text">
+										Ochara Fredrick, Dan Mbui and 25 others
+									</p>
+								</div>
+							</div>
+							<div class="post-item__footer--comments">
+								14 Comments
+							</div>
+						</div>
+						<div class="post-item__footer--reaction">
+							<div class="post-item__footer--reaction--item">
+								<svg
+									xmlns="http://www.w3.org/2000/svg"
+									fill="none"
+									viewBox="0 0 24 24"
+									stroke-width="1.5"
+									stroke="currentColor"
+									class="post-item__footer--reaction--icon"
+								>
+									<path
+										stroke-linecap="round"
+										stroke-linejoin="round"
+										d="M6.633 10.5c.806 0 1.533-.446 2.031-1.08a9.041 9.041 0 012.861-2.4c.723-.384 1.35-.956 1.653-1.715a4.498 4.498 0 00.322-1.672V3a.75.75 0 01.75-.75A2.25 2.25 0 0116.5 4.5c0 1.152-.26 2.243-.723 3.218-.266.558.107 1.282.725 1.282h3.126c1.026 0 1.945.694 2.054 1.715.045.422.068.85.068 1.285a11.95 11.95 0 01-2.649 7.521c-.388.482-.987.729-1.605.729H13.48c-.483 0-.964-.078-1.423-.23l-3.114-1.04a4.501 4.501 0 00-1.423-.23H5.904M14.25 9h2.25M5.904 18.75c.083.205.173.405.27.602.197.4-.078.898-.523.898h-.908c-.889 0-1.713-.518-1.972-1.368a12 12 0 01-.521-3.507c0-1.553.295-3.036.831-4.398C3.387 10.203 4.167 9.75 5 9.75h1.053c.472 0 .745.556.5.96a8.958 8.958 0 00-1.302 4.665c0 1.194.232 2.333.654 3.375z"
+									/>
+								</svg>
+
+								<span class="post-item__footer--reaction--text"
+									>Like</span
+								>
+							</div>
+							<div class="post-item__footer--reaction--item">
+								<svg
+									xmlns="http://www.w3.org/2000/svg"
+									fill="none"
+									viewBox="0 0 24 24"
+									stroke-width="1.5"
+									stroke="currentColor"
+									class="post-item__footer--reaction--icon"
+								>
+									<path
+										stroke-linecap="round"
+										stroke-linejoin="round"
+										d="M6.633 10.5c.806 0 1.533-.446 2.031-1.08a9.041 9.041 0 012.861-2.4c.723-.384 1.35-.956 1.653-1.715a4.498 4.498 0 00.322-1.672V3a.75.75 0 01.75-.75A2.25 2.25 0 0116.5 4.5c0 1.152-.26 2.243-.723 3.218-.266.558.107 1.282.725 1.282h3.126c1.026 0 1.945.694 2.054 1.715.045.422.068.85.068 1.285a11.95 11.95 0 01-2.649 7.521c-.388.482-.987.729-1.605.729H13.48c-.483 0-.964-.078-1.423-.23l-3.114-1.04a4.501 4.501 0 00-1.423-.23H5.904M14.25 9h2.25M5.904 18.75c.083.205.173.405.27.602.197.4-.078.898-.523.898h-.908c-.889 0-1.713-.518-1.972-1.368a12 12 0 01-.521-3.507c0-1.553.295-3.036.831-4.398C3.387 10.203 4.167 9.75 5 9.75h1.053c.472 0 .745.556.5.96a8.958 8.958 0 00-1.302 4.665c0 1.194.232 2.333.654 3.375z"
+									/>
+								</svg>
+
+								<span class="post-item__footer--reaction--text"
+									>Comment</span
+								>
+							</div>
+							<div class="post-item__footer--reaction--item">
+								<svg
+									xmlns="http://www.w3.org/2000/svg"
+									fill="none"
+									viewBox="0 0 24 24"
+									stroke-width="1.5"
+									stroke="currentColor"
+									class="post-item__footer--reaction--icon"
+								>
+									<path
+										stroke-linecap="round"
+										stroke-linejoin="round"
+										d="M13.5 6H5.25A2.25 2.25 0 003 8.25v10.5A2.25 2.25 0 005.25 21h10.5A2.25 2.25 0 0018 18.75V10.5m-10.5 6L21 3m0 0h-5.25M21 3v5.25"
+									/>
+								</svg>
+
+								<span class="post-item__footer--reaction--text"
+									>Share</span
+								>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="post-item">
+					<div class="post-item__header">
+						<div class="post-item__header--profile">
+							<img
+								class="post-item__header--profile--img"
+								src="imgs/post3.jpg"
+								alt="Profile picture"
+							/>
+						</div>
+						<div class="post-item__header--name">
+							<p class="post-item__header--text">
+								<span>Dan Mbui</span>
+							</p>
+						</div>
+						<div class="post-item__header--more">
+							<svg
+								xmlns="http://www.w3.org/2000/svg"
+								viewBox="0 0 24 24"
+								fill="currentColor"
+								class="post-item__header--icon"
+							>
+								<path
+									fill-rule="evenodd"
+									d="M4.5 12a1.5 1.5 0 113 0 1.5 1.5 0 01-3 0zm6 0a1.5 1.5 0 113 0 1.5 1.5 0 01-3 0zm6 0a1.5 1.5 0 113 0 1.5 1.5 0 01-3 0z"
+									clip-rule="evenodd"
+								/>
+							</svg>
+							<svg
+								xmlns="http://www.w3.org/2000/svg"
+								viewBox="0 0 24 24"
+								fill="currentColor"
+								class="post-item__header--icon"
+							>
+								<path
+									fill-rule="evenodd"
+									d="M5.47 5.47a.75.75 0 011.06 0L12 10.94l5.47-5.47a.75.75 0 111.06 1.06L13.06 12l5.47 5.47a.75.75 0 11-1.06 1.06L12 13.06l-5.47 5.47a.75.75 0 01-1.06-1.06L10.94 12 5.47 6.53a.75.75 0 010-1.06z"
+									clip-rule="evenodd"
+								/>
+							</svg>
+						</div>
+					</div>
+					<div class="post-item__content">
+						<p class="post-item__content--text">
+							Lorem ipsum, dolor sit amet consectetur adipisicing
+							elit.
+						</p>
+						<img
+							class="post-item__content--img"
+							src="imgs/post3.jpg"
+							alt="profile picture"
+						/>
+					</div>
+					<div class="post-item__footer">
+						<div class="post-item__footer--like-comment--box">
+							<div class="post-item__footer--likes">
+								<div class="post-item__footer--likes--content">
+									<svg
+										xmlns="http://www.w3.org/2000/svg"
+										viewBox="0 0 24 24"
+										fill="currentColor"
+										class="post-item__footer--likes--icon"
+									>
+										<path
+											d="M7.493 18.75c-.425 0-.82-.236-.975-.632A7.48 7.48 0 016 15.375c0-1.75.599-3.358 1.602-4.634.151-.192.373-.309.6-.397.473-.183.89-.514 1.212-.924a9.042 9.042 0 012.861-2.4c.723-.384 1.35-.956 1.653-1.715a4.498 4.498 0 00.322-1.672V3a.75.75 0 01.75-.75 2.25 2.25 0 012.25 2.25c0 1.152-.26 2.243-.723 3.218-.266.558.107 1.282.725 1.282h3.126c1.026 0 1.945.694 2.054 1.715.045.422.068.85.068 1.285a11.95 11.95 0 01-2.649 7.521c-.388.482-.987.729-1.605.729H14.23c-.483 0-.964-.078-1.423-.23l-3.114-1.04a4.501 4.501 0 00-1.423-.23h-.777zM2.331 10.977a11.969 11.969 0 00-.831 4.398 12 12 0 00.52 3.507c.26.85 1.084 1.368 1.973 1.368H4.9c.445 0 .72-.498.523-.898a8.963 8.963 0 01-.924-3.977c0-1.708.476-3.305 1.302-4.666.245-.403-.028-.959-.5-.959H4.25c-.832 0-1.612.453-1.918 1.227z"
+										/>
+									</svg>
+
+									<p class="post-item__footer--likes--text">
+										Ochara Fredrick, Dan Mbui and 25 others
+									</p>
+								</div>
+							</div>
+							<div class="post-item__footer--comments">
+								14 Comments
+							</div>
+						</div>
+						<div class="post-item__footer--reaction">
+							<div class="post-item__footer--reaction--item">
+								<svg
+									xmlns="http://www.w3.org/2000/svg"
+									fill="none"
+									viewBox="0 0 24 24"
+									stroke-width="1.5"
+									stroke="currentColor"
+									class="post-item__footer--reaction--icon"
+								>
+									<path
+										stroke-linecap="round"
+										stroke-linejoin="round"
+										d="M6.633 10.5c.806 0 1.533-.446 2.031-1.08a9.041 9.041 0 012.861-2.4c.723-.384 1.35-.956 1.653-1.715a4.498 4.498 0 00.322-1.672V3a.75.75 0 01.75-.75A2.25 2.25 0 0116.5 4.5c0 1.152-.26 2.243-.723 3.218-.266.558.107 1.282.725 1.282h3.126c1.026 0 1.945.694 2.054 1.715.045.422.068.85.068 1.285a11.95 11.95 0 01-2.649 7.521c-.388.482-.987.729-1.605.729H13.48c-.483 0-.964-.078-1.423-.23l-3.114-1.04a4.501 4.501 0 00-1.423-.23H5.904M14.25 9h2.25M5.904 18.75c.083.205.173.405.27.602.197.4-.078.898-.523.898h-.908c-.889 0-1.713-.518-1.972-1.368a12 12 0 01-.521-3.507c0-1.553.295-3.036.831-4.398C3.387 10.203 4.167 9.75 5 9.75h1.053c.472 0 .745.556.5.96a8.958 8.958 0 00-1.302 4.665c0 1.194.232 2.333.654 3.375z"
+									/>
+								</svg>
+
+								<span class="post-item__footer--reaction--text"
+									>Like</span
+								>
+							</div>
+							<div class="post-item__footer--reaction--item">
+								<svg
+									xmlns="http://www.w3.org/2000/svg"
+									fill="none"
+									viewBox="0 0 24 24"
+									stroke-width="1.5"
+									stroke="currentColor"
+									class="post-item__footer--reaction--icon"
+								>
+									<path
+										stroke-linecap="round"
+										stroke-linejoin="round"
+										d="M6.633 10.5c.806 0 1.533-.446 2.031-1.08a9.041 9.041 0 012.861-2.4c.723-.384 1.35-.956 1.653-1.715a4.498 4.498 0 00.322-1.672V3a.75.75 0 01.75-.75A2.25 2.25 0 0116.5 4.5c0 1.152-.26 2.243-.723 3.218-.266.558.107 1.282.725 1.282h3.126c1.026 0 1.945.694 2.054 1.715.045.422.068.85.068 1.285a11.95 11.95 0 01-2.649 7.521c-.388.482-.987.729-1.605.729H13.48c-.483 0-.964-.078-1.423-.23l-3.114-1.04a4.501 4.501 0 00-1.423-.23H5.904M14.25 9h2.25M5.904 18.75c.083.205.173.405.27.602.197.4-.078.898-.523.898h-.908c-.889 0-1.713-.518-1.972-1.368a12 12 0 01-.521-3.507c0-1.553.295-3.036.831-4.398C3.387 10.203 4.167 9.75 5 9.75h1.053c.472 0 .745.556.5.96a8.958 8.958 0 00-1.302 4.665c0 1.194.232 2.333.654 3.375z"
+									/>
+								</svg>
+
+								<span class="post-item__footer--reaction--text"
+									>Comment</span
+								>
+							</div>
+							<div class="post-item__footer--reaction--item">
+								<svg
+									xmlns="http://www.w3.org/2000/svg"
+									fill="none"
+									viewBox="0 0 24 24"
+									stroke-width="1.5"
+									stroke="currentColor"
+									class="post-item__footer--reaction--icon"
+								>
+									<path
+										stroke-linecap="round"
+										stroke-linejoin="round"
+										d="M13.5 6H5.25A2.25 2.25 0 003 8.25v10.5A2.25 2.25 0 005.25 21h10.5A2.25 2.25 0 0018 18.75V10.5m-10.5 6L21 3m0 0h-5.25M21 3v5.25"
+									/>
+								</svg>
+
+								<span class="post-item__footer--reaction--text"
+									>Share</span
+								>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+			<aside class="aside">
+				<div class="aside__birthdays">
+					<h1 class="aside__birthdays--heading">Birthdays</h1>
+					<div class="aside__birthdays--item">
+						<svg
+							xmlns="http://www.w3.org/2000/svg"
+							viewBox="0 0 24 24"
+							fill="currentColor"
+							class="aside__birthdays--icon"
+						>
+							<path
+								d="M9.375 3a1.875 1.875 0 000 3.75h1.875v4.5H3.375A1.875 1.875 0 011.5 9.375v-.75c0-1.036.84-1.875 1.875-1.875h3.193A3.375 3.375 0 0112 2.753a3.375 3.375 0 015.432 3.997h3.943c1.035 0 1.875.84 1.875 1.875v.75c0 1.036-.84 1.875-1.875 1.875H12.75v-4.5h1.875a1.875 1.875 0 10-1.875-1.875V6.75h-1.5V4.875C11.25 3.839 10.41 3 9.375 3zM11.25 12.75H3v6.75a2.25 2.25 0 002.25 2.25h6v-9zM12.75 12.75v9h6.75a2.25 2.25 0 002.25-2.25v-6.75h-9z"
+							/>
+						</svg>
+						<p class="aside__birthdays--text">
+							<strong>Akello Beldine's</strong> Birthday is today.
+						</p>
+					</div>
+				</div>
+				<div class="aside__contacts">
+					<div class="aside__contacts--header">
+						<h1 class="aside__contacts--heading">Contacts</h1>
+						<span class="aside__contacts--icon-item">
+							<svg
+								xmlns="http://www.w3.org/2000/svg"
+								viewBox="0 0 24 24"
+								fill="currentColor"
+								class="aside__contacts--icon"
+							>
+								<path
+									d="M4.5 4.5a3 3 0 00-3 3v9a3 3 0 003 3h8.25a3 3 0 003-3v-9a3 3 0 00-3-3H4.5zM19.94 18.75l-2.69-2.69V7.94l2.69-2.69c.944-.945 2.56-.276 2.56 1.06v11.38c0 1.336-1.616 2.005-2.56 1.06z"
+								/>
+							</svg>
+						</span>
+						<span class="aside__contacts--icon-item">
+							<svg
+								xmlns="http://www.w3.org/2000/svg"
+								viewBox="0 0 24 24"
+								fill="currentColor"
+								class="aside__contacts--icon"
+							>
+								<path
+									fill-rule="evenodd"
+									d="M10.5 3.75a6.75 6.75 0 100 13.5 6.75 6.75 0 000-13.5zM2.25 10.5a8.25 8.25 0 1114.59 5.28l4.69 4.69a.75.75 0 11-1.06 1.06l-4.69-4.69A8.25 8.25 0 012.25 10.5z"
+									clip-rule="evenodd"
+								/>
+							</svg>
+						</span>
+						<span class="aside__contacts--icon-item">
+							<svg
+								xmlns="http://www.w3.org/2000/svg"
+								viewBox="0 0 24 24"
+								fill="currentColor"
+								class="aside__contacts--icon"
+							>
+								<path
+									fill-rule="evenodd"
+									d="M4.5 12a1.5 1.5 0 113 0 1.5 1.5 0 01-3 0zm6 0a1.5 1.5 0 113 0 1.5 1.5 0 01-3 0zm6 0a1.5 1.5 0 113 0 1.5 1.5 0 01-3 0z"
+									clip-rule="evenodd"
+								/>
+							</svg>
+						</span>
+					</div>
+					<div class="aside__contacts__item">
+						<img
+							class="aside__contacts__item--profile"
+							src="imgs/profile11.jpg"
+							alt="profile pictrue"
+						/>
+						<p class="aside__contacts__item--name">Saul Goodmate</p>
+					</div>
+					<div class="aside__contacts__item">
+						<img
+							class="aside__contacts__item--profile"
+							src="imgs/profile10.jpg"
+							alt="profile pictrue"
+						/>
+						<p class="aside__contacts__item--name">
+							Patty O'Furniture
+						</p>
+					</div>
+					<div class="aside__contacts__item">
+						<img
+							class="aside__contacts__item--profile"
+							src="imgs/profile9.jpg"
+							alt="profile pictrue"
+						/>
+						<p class="aside__contacts__item--name">Olive Yew</p>
+					</div>
+					<div class="aside__contacts__item">
+						<img
+							class="aside__contacts__item--profile"
+							src="imgs/profile8.jpg"
+							alt="profile pictrue"
+						/>
+						<p class="aside__contacts__item--name">Aida Bugg</p>
+					</div>
+					<div class="aside__contacts__item">
+						<img
+							class="aside__contacts__item--profile"
+							src="imgs/profile7.jpg"
+							alt="profile pictrue"
+						/>
+						<p class="aside__contacts__item--name">
+							Maureen Biologist
+						</p>
+					</div>
+					<div class="aside__contacts__item">
+						<img
+							class="aside__contacts__item--profile"
+							src="imgs/profile6.jpg"
+							alt="profile pictrue"
+						/>
+						<p class="aside__contacts__item--name">Teri Dactyl</p>
+					</div>
+					<div class="aside__contacts__item">
+						<img
+							class="aside__contacts__item--profile"
+							src="imgs/profile5.jpg"
+							alt="profile pictrue"
+						/>
+						<p class="aside__contacts__item--name">Peg Legge</p>
+					</div>
+					<div class="aside__contacts__item">
+						<img
+							class="aside__contacts__item--profile"
+							src="imgs/profile4.jpg"
+							alt="profile pictrue"
+						/>
+						<p class="aside__contacts__item--name">Allie Grater</p>
+					</div>
+					<div class="aside__contacts__item">
+						<img
+							class="aside__contacts__item--profile"
+							src="imgs/profile2.jpg"
+							alt="profile pictrue"
+						/>
+						<p class="aside__contacts__item--name">Don Messwidme</p>
+					</div>
+					<div class="aside__contacts__item">
+						<img
+							class="aside__contacts__item--profile"
+							src="imgs/profile1.jpg"
+							alt="profile pictrue"
+						/>
+						<p class="aside__contacts__item--name">Al Annon</p>
+					</div>
+					<div class="aside__contacts__item">
+						<img
+							class="aside__contacts__item--profile"
+							src="imgs/profile1.jpg"
+							alt="profile pictrue"
+						/>
+						<p class="aside__contacts__item--name">Al Annon</p>
+					</div>
+					<div class="aside__contacts__item">
+						<img
+							class="aside__contacts__item--profile"
+							src="imgs/profile1.jpg"
+							alt="profile pictrue"
+						/>
+						<p class="aside__contacts__item--name">Al Annon</p>
+					</div>
+					<div class="aside__contacts__item">
+						<img
+							class="aside__contacts__item--profile"
+							src="imgs/profile1.jpg"
+							alt="profile pictrue"
+						/>
+						<p class="aside__contacts__item--name">Al Annon</p>
+					</div>
+				</div>
+				<div class="aside__conversation">
+					<h1 class="aside__conversation--heading">
+						Group Conversation
+					</h1>
+					<div class="aside__conversation--item">
+						<span class="aside__conversation--icon-box">
+							<svg
+								xmlns="http://www.w3.org/2000/svg"
+								viewBox="0 0 24 24"
+								fill="currentColor"
+								class="aside__conversation--icon"
+							>
+								<path
+									fill-rule="evenodd"
+									d="M12 3.75a.75.75 0 01.75.75v6.75h6.75a.75.75 0 010 1.5h-6.75v6.75a.75.75 0 01-1.5 0v-6.75H4.5a.75.75 0 010-1.5h6.75V4.5a.75.75 0 01.75-.75z"
+									clip-rule="evenodd"
+								/>
+							</svg>
+						</span>
+						<p class="aside__conversation--text">
+							Create New Group
+						</p>
+					</div>
+				</div>
+			</aside>
+		</div>
+		<div class="new-message">
+			<svg
+				xmlns="http://www.w3.org/2000/svg"
+				viewBox="0 0 24 24"
+				fill="currentColor"
+				class="new-message--icon"
+			>
+				<path
+					d="M21.731 2.269a2.625 2.625 0 00-3.712 0l-1.157 1.157 3.712 3.712 1.157-1.157a2.625 2.625 0 000-3.712zM19.513 8.199l-3.712-3.712-8.4 8.4a5.25 5.25 0 00-1.32 2.214l-.8 2.685a.75.75 0 00.933.933l2.685-.8a5.25 5.25 0 002.214-1.32l8.4-8.4z"
+				/>
+				<path
+					d="M5.25 5.25a3 3 0 00-3 3v10.5a3 3 0 003 3h10.5a3 3 0 003-3V13.5a.75.75 0 00-1.5 0v5.25a1.5 1.5 0 01-1.5 1.5H5.25a1.5 1.5 0 01-1.5-1.5V8.25a1.5 1.5 0 011.5-1.5h5.25a.75.75 0 000-1.5H5.25z"
+				/>
+			</svg>
+		</div>
+	</body>
+</html>

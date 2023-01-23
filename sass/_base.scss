@@ -1,0 +1,119 @@
+// ********VARIABLES************
+$primary-color: #1877f2;
+$primary-color-dark: #385898;
+
+$grey-color: #65676b;
+$grey-color-light: #f0f2f5;
+$grey-color-light-1: #ced0d4;
+$grey-color-light-2: #e4e6e9;
+$grey-color-light-3: #f2f2f2;
+
+$grey-color-dark: #050505;
+$red-color: #e41e3f;
+$red-color-1: #eddcd4;
+$green-color: #41b35d;
+$yellow-color: #eab026;
+
+// new colorr
+$black: #000000;
+$black-1: #0e0e0e;
+$black-2: #050505;
+$black-3: #1c1e21;
+$black-4: #242526;
+
+$grey: #606770;
+$grey-1: #65676b;
+$grey-2: #a0a09e;
+$grey-3: #bcc0c4;
+$grey-4: #ced0d4;
+$grey-5: #dadde1;
+$grey-6: #e4e6eb;
+$grey-7: #f0f2f5;
+
+$blue: #1876f2;
+$blue-1: #1b74e4;
+$blue-2: #4080ff;
+$blue-4: #4599ff;
+$blue-5: #74a4f2;
+$blue-6: #deefe1;
+
+$red: #e41e3f;
+
+$green: #31a24c;
+
+$dark-blue: #385898;
+
+// MOBILE BREAKPOINTS
+
+$large: 81.25em; //1180/16
+$medium: 68.75em; //1100/16
+$small: 56.25em; //900/16
+$smaller: 42.5em; //680/16
+$smallest: 31.25em; //500/16
+$tiny: 21.875em; //350/16
+
+*,
+*::before,
+*::after {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+html {
+	font-size: 62.5%;
+	color: $grey-color-dark;
+	@media screen and(max-width: $smallest) {
+		font-size: 50%;
+	}
+}
+body {
+	font-size: 1.7rem;
+	line-height: 1.5;
+	font-family: Helvetica, Arial, sans-serif;
+	color: $grey-color-dark;
+	background-color: $grey-color-light;
+	font-family: 'Lexend', sans-serif;
+	font-weight: 400;
+}
+.container {
+	display: grid;
+	grid-template-columns: repeat(12, 1fr);
+	column-gap: 10rem;
+	margin-top: 8rem;
+	@media screen and(max-width: $medium) {
+		grid-template-columns: repeat(8, 1fr);
+		column-gap: 4rem;
+	}
+	@media screen and(max-width: $smaller) {
+		column-gap: 0;
+	}
+	@media screen and(max-width: $smallest) {
+		display: block;
+	}
+}
+
+.new-message {
+	width: 4rem;
+	height: 4rem;
+	border-radius: 50%;
+	background-color: #fff;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	position: fixed;
+	right: 25px;
+	bottom: 25px;
+	z-index: 9999;
+	box-shadow: 0 2px 12px 2px rgba(0, 0, 0, 0.2);
+	&:hover {
+		cursor: pointer;
+	}
+	&--icon {
+		width: 2.4rem;
+		height: 2.4rem;
+	}
+
+	@media screen and(max-width: $smaller) {
+		display: none;
+	}
+}

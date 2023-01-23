@@ -1,0 +1,165 @@
+.aside {
+	min-width: 40rem;
+	position: fixed;
+	top: 7rem;
+	right: 0;
+	z-index: 9999;
+
+	@media screen and(max-width: $large) {
+		min-width: 20rem;
+		right: 10rem;
+	}
+
+	@media screen and(max-width: $medium) {
+		display: none;
+	}
+
+	&__birthdays {
+		margin-bottom: 3rem;
+		&--heading {
+			font-size: 1.7rem;
+			margin-bottom: 2rem;
+			padding: 1rem 1rem;
+		}
+		&--item {
+			display: flex;
+			gap: 1rem;
+			align-items: center;
+			border-radius: 10px;
+			padding: 1rem 1rem;
+			&:hover {
+				background-color: $grey-color-light-2;
+				cursor: pointer;
+			}
+		}
+
+		&--icon {
+			width: 2.8rem;
+			height: 2.8rem;
+			color: $primary-color;
+		}
+		&--text {
+			font-size: 1.4rem;
+		}
+	}
+	&__contacts {
+		&--header {
+			display: flex;
+			gap: 1rem;
+			align-items: center;
+			margin-bottom: 2rem;
+			position: relative;
+		}
+		&--heading {
+			font-size: 1.7rem;
+			flex: 1;
+			padding: 1rem 1rem;
+		}
+		&--icon {
+			width: 2rem;
+			height: 2rem;
+			position: relative;
+			z-index: 9999;
+
+			&-item {
+				display: flex;
+				align-items: center;
+				justify-content: center;
+
+				&:hover {
+					cursor: pointer;
+					&::before {
+						display: inline;
+					}
+				}
+			}
+			&-item {
+				&::before {
+					content: '';
+					width: 3.4rem;
+					height: 3.4rem;
+					background-color: $grey-color-light-2;
+					border-radius: 50%;
+					position: absolute;
+					display: none;
+				}
+			}
+		}
+		&__item {
+			display: flex;
+			align-items: center;
+			gap: 1.3rem;
+			margin-bottom: 2rem;
+			position: relative;
+			padding: 0.5rem 0.5rem;
+			border-radius: 10px;
+			&:hover {
+				cursor: pointer;
+				background-color: $grey-color-light-2;
+			}
+			&--profile {
+				width: 3rem;
+				height: 3rem;
+				border-radius: 50%;
+				border: 1px solid $grey-color-light-2;
+			}
+			&--name {
+				font-size: 1.6rem;
+				&::before {
+					content: '';
+					width: 1rem;
+					height: 1rem;
+					background-color: $green-color;
+					border-radius: 50%;
+					position: absolute;
+					border: 2px solid #fff;
+					top: 18px;
+					left: 25px;
+					z-index: 999;
+				}
+			}
+		}
+	}
+	&__conversation {
+		margin-top: 4rem;
+		&--heading {
+			font-size: 1.6rem;
+			margin-bottom: 2rem;
+		}
+		&--item {
+			display: flex;
+			align-items: center;
+			gap: 2.5rem;
+			position: relative;
+		}
+		&--icon-box {
+			padding: 3rem 0;
+			&::before {
+				content: '';
+				width: 3rem;
+				height: 3rem;
+				border-radius: 50%;
+				position: absolute;
+				top: 27px;
+				left: -4px;
+				background-color: $grey-color-light-1;
+			}
+		}
+		&--icon {
+			width: 2.4rem;
+			height: 2.4rem;
+			z-index: 999;
+			position: relative;
+			&--alt {
+				width: 2.4rem;
+				height: 2.4rem;
+				// background-color: #eee;
+				border-radius: 50%;
+				stroke: $grey-color-dark;
+			}
+		}
+		&--text {
+			font-size: 1.4rem;
+		}
+	}
+}
